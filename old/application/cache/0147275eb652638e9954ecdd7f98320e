@@ -1,0 +1,85 @@
+1425467551TS---><!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://formigone.com/public/css/reset.css" />
+        <link rel="stylesheet" href="http://formigone.com/public/css/960.css" />
+        <link rel="stylesheet" href="http://formigone.com/public/css/style.css" />
+        
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/Pz8AKNfFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiAAAAAAAiIiIAAAAAACIRIgAAAAAAIhEiAAAAAAAiESIAAAAAACIRIgAAAAAAIhEiIiIiAAAiESIiIiIAACIRERERIgAAIhEREREiAAAiESIiIiIAACIRIiIiIgAAIhEREREiAAAiERERESIAACIiIiIiIgAAIiIiIiIiDgfwAA4H8AAOB/AADgfwAA4H8AAOB/AADgAQAA4AEAAOABAADgAQAA4AEAAOABAADgAQAA4AEAAOABAADgAQAA" rel="icon" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://formigone.com/pubrecs/icons/formigone-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://formigone.com/pubrecs/icons/formigone-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://formigone.com/pubrecs/icons/formigone-icon-114x114.png" />
+        <title>Page Not Found</title>
+    </head>
+    <body>
+                 <div id="head">
+    <div class="container_12">
+        <a href="http://formigone.com/" id="logo">
+            <img src="http://formigone.com/public/img/logo.png"/>
+        </a>
+
+        <span>
+            <img src="http://formigone.com/public/img/logo.png"/>
+        </span>
+    </div>
+</div>
+<div class="container_12" id="nav">
+    <ul class="grid_12">
+        <li><a href="http://formigone.com/the-digital-agency">the agency</a></li>
+        <li><a href="http://formigone.com/web-services">services</a></li>
+        <li><a href="http://formigone.com/web-apps">products</a></li>
+        <li><a href="http://formigone.com/contact">contact</a></li>
+    </ul>
+</div>        
+        <div id="billboard_wannabe"></div>
+        
+        <div id="main">
+            <div class="container_12">
+    <div class="grid_8">
+        <h1>Error: Page not found</h1>
+        <p>The page you are looking for could not be found. Possible reasons could be:</p>
+        <ul>
+            <li>The link you clicked was incorrect</li>
+            <li>The old that used to be here has been removed or changed address</li>
+            <li>You mistyped the URL to the page you're looking for</li>
+        </ul>
+        
+        <p>If you'd like to report this error, feel free to use our <a href="http://formigone.com/contact">contact form</a>.</p>
+        <h2>Some useful links:</h2>
+        <ul>
+            <li><a herf="http://formigone.com/">Our homepage</a></li>
+            <li><a herf="http://formigone.com/the-digital-agency">About Formigone Digital Agency</a></li>
+            <li><a herf="http://formigone.com/web-apps">Our latest products and apps</a></li>
+        </ul>
+    </div>
+    <div class="grid_4 sidebar">
+        <img src="http://formigone.com/public/img/broken-cd-page-not-found.jpg" alt="Page not found"/>
+    </div>
+</div>        </div>
+        
+        <div id="footer">
+    <div class="container_12">
+        <div class="grid_6">
+            <a href="http://formigone.com/the-digital-agency">the agency</a>
+            <a href="http://formigone.com/web-services">services</a>
+            <a href="http://formigone.com/web-apps">products</a>
+            <a href="http://formigone.com/contact">contact</a>
+        </div>
+        <div class="grid_6">
+            <p class="align_right">Copyright &copy; 2012 Formigone. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20148108-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </body>
+</html>

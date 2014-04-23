@@ -1,0 +1,14 @@
+{
+  "name": "Omikuji Fortune Cookie",
+  "version": "1.0",
+  "description": "Learn what the universe has in store for you. Get your fortune without going to an Asian buffet.",
+  "app": {
+    "launch":{
+      "local_path":"http://www.formigone.com/apps/omikuji/index.php"
+    }
+  },
+  "icons": {
+    "16": "icon-omikuji16.png",
+    "128": "icon-omikuji128.png"
+  }
+}

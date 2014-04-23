@@ -1,0 +1,26 @@
+<form method="post" class="well span8">
+	  <?php if ($this->error): ?>
+		<div class="alert alert-error">
+		<strong>Error: </strong> <?= $this->message; ?>
+		</div>
+		<?php endif; ?>
+
+		<label>Login Information</label> <input type="text" name="username"
+		autofocus placeholder="User ID" value="User ID" class="span4" /> <input
+		type="password" name="password" placeholder="Password" value=""
+		class="span4" />
+
+		<label>Employee Role</label>
+		<select name="role_id">
+		<?php foreach ($this->roles as $_role): ?>
+		<option value="<?= $_role["id"]; ?>"><?= $_role["name"]; ?></option>
+		<?php endforeach; ?>
+		</select>
+
+		<label>Employee Name</label> <input type="text"
+		name="first_name" placeholder="First Name" class="span4" /> <input
+		type="text" name="last_name" placeholder="Last Name" class="span4" />
+
+	<button type="submit" class="btn btn-primary">Add Employee</button>
+	<a href="/manage" class="btn btn-link">Cancel</a>
+</form>

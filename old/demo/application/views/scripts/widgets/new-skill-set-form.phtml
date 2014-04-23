@@ -1,0 +1,29 @@
+<form method="post" class="well span8">
+	  <?php if ($this->error): ?>
+		<div class="alert alert-error">
+		<strong>Error: </strong> <?= $this->message; ?>
+		</div>
+		<?php endif; ?>
+
+		<div class="clearfix"></div>
+
+	<div class="pull-left">
+		<label>New Skill Set</label> <input type="text" name="skill_set"
+			autofocus placeholder="Skill Set" class="span4" />
+
+	</div>
+	<div class="pull-right span4">
+		<label>Order </label> <select name="order" class="span4">
+		<?php for ($i = 0; $i < $this->totalSets; $i++): ?>
+		    <option value="<?= $i; ?>"><?= ($i + 1); ?></option>
+		 <?php endfor; ?>
+		</select>
+	</div>
+		<?php
+// TODO: Implement the order dropdown with the max val being the number of skill sets assigned for this team
+?>
+		<div class="clearfix"></div>
+	<button type="submit" class="btn btn-primary">Add Skill Set</button>
+	<a href="/skills/index/team/<?= $this->team["id"]; ?>"
+		class="btn btn-link">Cancel</a>
+</form>

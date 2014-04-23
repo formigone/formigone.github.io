@@ -1,0 +1,8 @@
+body { font-size: 12px; line-height: 15px; font-family: arial; color: #333; }
+h1 { font-size: 2.25em; color: #000; }
+h2 { color: #c00; }
+p { font-size: 1.24em; line-height: 1.25em; }
+#shell { dislay: block; text-align: center; width: 250px; height: 100px; margin: 25px auto 0; }
+#shell img { cursor: pointer; }
+#ins { display: none; width: 480px; margin: 10px auto; text-align: center; }
+.load { background: #aaa; width: 480px; height: 200px !important; }

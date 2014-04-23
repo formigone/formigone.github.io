@@ -1,0 +1,15 @@
+<?php if ($this->failed): ?>
+<p><?= $this->message; ?></p>
+<?php endif; ?>
+
+<form action="/index/login" method="post">
+	<p>
+		<input type="text" name="username" placeholder="Username" />
+	</p>
+	<p>
+		<input type="password" name="password" placeholder="Password" />
+	</p>
+	<p>
+		<button>Log in</button>
+	</p>
+</form>

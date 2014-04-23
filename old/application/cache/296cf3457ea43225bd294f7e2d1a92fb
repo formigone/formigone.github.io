@@ -1,0 +1,85 @@
+1395845003TS---><!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://FORMIGONE.COM/public/css/reset.css" />
+        <link rel="stylesheet" href="http://FORMIGONE.COM/public/css/960.css" />
+        <link rel="stylesheet" href="http://FORMIGONE.COM/public/css/style.css" />
+        
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/Pz8AKNfFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiAAAAAAAiIiIAAAAAACIRIgAAAAAAIhEiAAAAAAAiESIAAAAAACIRIgAAAAAAIhEiIiIiAAAiESIiIiIAACIRERERIgAAIhEREREiAAAiESIiIiIAACIRIiIiIgAAIhEREREiAAAiERERESIAACIiIiIiIgAAIiIiIiIiDgfwAA4H8AAOB/AADgfwAA4H8AAOB/AADgAQAA4AEAAOABAADgAQAA4AEAAOABAADgAQAA4AEAAOABAADgAQAA" rel="icon" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://formigone.com/pubrecs/icons/formigone-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://formigone.com/pubrecs/icons/formigone-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://formigone.com/pubrecs/icons/formigone-icon-114x114.png" />
+        <title>Web App & Mobile Apps Portfolio</title>
+    </head>
+    <body>
+                 <div id="head">
+    <div class="container_12">
+        <a href="http://FORMIGONE.COM/" id="logo">
+            <img src="http://FORMIGONE.COM/public/img/logo.png"/>
+        </a>
+
+        <span>
+            <img src="http://FORMIGONE.COM/public/img/logo.png"/>
+        </span>
+    </div>
+</div>
+<div class="container_12" id="nav">
+    <ul class="grid_12">
+        <li><a href="http://FORMIGONE.COM/the-digital-agency">the agency</a></li>
+        <li><a href="http://FORMIGONE.COM/web-services">services</a></li>
+        <li><a href="http://FORMIGONE.COM/web-apps">products</a></li>
+        <li><a href="http://FORMIGONE.COM/contact">contact</a></li>
+    </ul>
+</div>        
+        <div id="billboard_wannabe"></div>
+        
+        <div id="main">
+            <div class="container_12">
+    <div class="grid_8">
+        <h1>Awesome Apps, Eye-candy Web Designs</h1>
+<p>At Formigone Digital Agency, we are constantly producing high-quality, innovative products. Below is a list of some sample work we have done for our own use, as our own products (as in the case of our mobile apps and web-based HTML5 applications), and for some of our customers.</p>
+
+<h2>Speed Reading Trainer</h2>
+<img src="http://FORMIGONE.COM/public/img/banners/speed-reading-trainer.jpg" class="banners" alt="Speed Reading Trainer"/>
+<p>This seemingly simple Google Chrome app helps you to boost your reading speed, and increase your comprehension rate. This is done by helping you train your eyes and brain, so that you can build natural habits that the world's fastest readers possess.</p>
+<p><a href="https://chrome.google.com/webstore/detail/klloefpijaofgelefjimlhdikagaegfe" class="inline_button_orange">Learn more</a></p>
+
+<hr class="light"/>
+
+<h2>Omikuji Fortune Cookie</h2>
+<img src="http://FORMIGONE.COM/public/img/banners/omikuji-fortune-cookie.jpg" class="banners" alt="Omikuji Fortune Cookie"/>
+<p>This application was our first project to move our development away from the browser (HTML5 world), and took us straight into <a href="">native mobile</a> development. Our starting point was the Android operating system, where this app is available today. There is also an HTML5 version of <a href="">Omikuji: Fortune Cookie available on Google's Chrome Webstore</a>.</p>
+<p><a href="http://FORMIGONE.COM/omikuji-fortune-cookie" class="inline_button_orange">Learn more</a></p>
+
+    </div>
+    <div class="grid_4 sidebar">
+        <img src="http://FORMIGONE.COM/public/img/architecture-design.jpg" alt="Formigone mobile apps portfolio"/>
+    </div>
+</div>        </div>
+        
+        <div id="footer">
+    <div class="container_12">
+        <div class="grid_6">
+            <a href="http://FORMIGONE.COM/the-digital-agency">the agency</a>
+            <a href="http://FORMIGONE.COM/web-services">services</a>
+            <a href="http://FORMIGONE.COM/web-apps">products</a>
+            <a href="http://FORMIGONE.COM/contact">contact</a>
+        </div>
+        <div class="grid_6">
+            <p class="align_right">Copyright &copy; 2012 Formigone. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20148108-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </body>
+</html>

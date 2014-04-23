@@ -1,0 +1,45 @@
+<div class="row">
+
+	<div class="span12">
+		<div class="page-header">
+			<h1><?= $this->org["name"]; ?></h1>
+		</div>
+
+		<ul class="breadcrumb">
+      <?php if ($this->role == "SUPER_ADMIN"): ?>
+			<li><a href="/manage">Settings</a> <span class="divider">/</span></li>
+		<?php endif; ?>
+			<li class="active"><?= $this->org["name"]; ?></li>
+		</ul>
+	</div>
+
+	<div class="span8">
+		<h3>Departments</h3>
+<?php if (count($this->depts) < 1): ?>
+   <div class="alert alert-info">No departments found</div>
+<?php else: ?>
+   <ul>
+   <?php foreach ($this->depts as $_dept): ?>
+   <li><a
+				href="/manage/department/id/<?= $_dept["id"]; ?>/organization/<?= $this->org["id"]; ?>">
+      <?= $_dept["name"]; ?>
+      </a></li>
+   <?php endforeach; ?>
+   </ul>
+<?php endif; ?>
+
+<?=$this->partial("widgets/team-list.phtml", array("teams" => $this->teams)); ?>
+<?=$this->partial("widgets/employee-list.phtml", array("employees" => $this->employees)); ?>
+	</div>
+
+	<div class="span4">
+		<ul class="nav nav-tabs nav-stacked">
+			<li><a
+				href="/manage/add-department/organization/<?= $this->org["id"]; ?>"><span
+					class="icon-plus"></span> Add Department</a></li>
+			<li><a
+				href="/manage/add-employee/organization/<?= $this->org["id"]; ?>"><span
+					class="icon-plus"></span> Add Employee</a></li>
+		</ul>
+	</div>
+</div>

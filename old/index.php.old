@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" > 
+<head>
+
+  <title>Formiogne Web Solutions &copy; 2010</title>
+  
+  <style type="text/css">
+     * { margin: 0; padding: *; }
+     body { width: 100%; height: 100%; }
+     div { width: 200px; height: 214px; margin: 0; position: fixed; bottom: 0; right: 0; padding: 15px }
+     img { border: 0; }
+  </style>
+
+  <?php include("bts/analytics.php"); ?>
+
+</head>
+<body>
+<div>
+  <a href="mailto:rsilveira@formigone.com">
+     <img src="img/logo.jpg" alt="Formigone Web Solutions" />
+  </a>
+<a href="http://www.linkedin.com/company/formigone-web-consulting?trk=fc_badge" style="position: relative; top: 5px;"><img src="http://static01.linkedin.com/scds/common/u/img/webpromo/btn_cofollow_badge.png" locale="en" alt="Formigone Web Consulting on LinkedIn"></a>
+<!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium" count="false"></g:plusone>
+
+</div>
+</body>
+</html>

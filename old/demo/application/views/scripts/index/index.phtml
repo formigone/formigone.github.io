@@ -1,0 +1,10 @@
+<h1>Index</h1>
+
+<?php if (!empty($this->user)): ?>
+<p>You are logged in as <?= $this->user->username; ?> - <a href="/index/logout">Log out</a></p>
+<p><a href="/manage">Manage Application</a></p>
+<?php endif; ?>
+
+<?php if (empty($this->user)): ?>
+<?= $this->partial("widgets/login-form.phtml"); ?>
+<?php endif; ?>

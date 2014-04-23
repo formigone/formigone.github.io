@@ -1,0 +1,191 @@
+/*
+ * Copyright 2012 Brasil ao Mundo. All rights reserved.
+ * @author Rodrigo Silveira
+ * @url http://www.rodrigo-silveira.com
+ * @date October 2012
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Scada:400,700);
+
+
+
+ body {
+    background: #000 url("../img/background-cloud.jpg") top center no-repeat;
+ }
+ 
+ .semitransBlack20 {
+    background: url("../img/background-black-20p.png");
+ }
+ 
+  .semitransBlack50 {
+    background: url("../img/background-black-50p.png");
+    border-radius: 5px;
+ }
+ 
+ #billboardLeft .semitransBlack50 p {
+    margin: 0 0 10px;
+    font-family: Arial;
+    font-size: 1.2em;
+    line-height: 1.2em;
+ }
+
+ .semitransBlack50 hr {
+    height: 1px;
+    margin: 10px 0 20px;
+    border: 0;
+    background: #113;
+ }
+ 
+ .semitransBlack50 input {
+    width: 247px;
+ }
+ 
+ #header {
+    height: 65px;
+ }
+
+ #header h1 {
+    color: #09f;
+    font-weight: 800;
+ }
+ 
+ #header h1 span {
+    color: #fff;
+ }
+ 
+ #header p {
+    color: #fff;
+ }
+
+ #headerRight p {
+    color: #ddd;
+    line-height: 1.5em;
+    margin: 11px 0 0;
+ }
+ 
+ #billboard {
+    padding: 75px 0;
+ }
+ 
+ #billboardLeft {
+    padding: 0 40px;
+ }
+ 
+ #billboardLeft h2 {
+    color: #fff;
+ }
+ 
+ #billboardLeft div {
+    padding: 10px 20px;
+    position: relative;
+ }
+
+ #billboardLeft div a {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+ }
+ 
+ #billboardLeft img {
+    border: 0;
+ }
+ 
+ #billboardLeft p {
+    color: #fff;
+    margin: 0 0 20px;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-family: Scada;
+    font-weight: 400;
+ }
+ 
+ #billboardLeft h2 {
+    margin: -15px 0 5px;
+ }
+ 
+ .slilderRule {
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-top: 1px dashed #555;
+    border-bottom: 1px dashed #555;
+ }
+ 
+ .slilderRule p {
+    color: #bbb;
+    line-height: 1.5em;
+    margin: 0;
+ }
+
+ .buttonBlue {
+    background: url("../img/button-blue.png") repeat-x;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 1.2em;
+    text-shadow: 0 -1px 1px #333;
+ }
+ 
+ .buttonBlue:hover {
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+ .listBlue {
+    color: #0099FF;
+    list-style: disc;
+    margin-bottom: 25px;
+    padding-right: 20px;
+ }
+ 
+ .listBlue span {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.0em;
+ }
+ 
+ h1, h2, h3 {
+    font-family: Scada, Arial;
+    font-weight: 700;
+    color: #fff;
+ }
+ 
+  h4 {
+    font-family: Scada, Arial;
+    font-weight: 400;
+    color: #ddd;
+ }
+ 
+ .miniThumbnail {
+    margin-top: 20px;
+ }
+ 
+ .miniThumbnail p {
+    padding: 0 50px 0 0;
+    color: #aaa;
+    line-height: 1.5em;
+    font-size: 0.9em;
+ }
+ 
+ #footer {
+    background: #0d0d0d;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 40px;
+ }
+ 
+ #footer p {
+    color: #888;
+    padding: 10px 0;
+    margin: 0;
+ }
+ 
+ .rightAlign {
+    text-align: right;
+ }
+ 
+ .centerAlign {
+    text-align: center
+ }
+ 

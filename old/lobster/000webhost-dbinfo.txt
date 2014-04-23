@@ -1,0 +1,10 @@
+//5#d)d9!SFhd_=3+$26Sdfpqie5@3^~!2#)sdf@#FG$Jas
+$mysql_host = "mysql10.000webhost.com";
+$mysql_database = "a2647781_lobster";
+$mysql_user = "a2647781_seadmin";
+$mysql_password = "5#d)d9!SFhd_=3+$26Sdfpqie5@3^~!2#)sdf@#FG$Jas";
+
+
+FTP host name	formigone.com
+FTP user name	a2647781
+FTP password	9SO3Oj

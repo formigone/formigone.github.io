@@ -1,0 +1,15 @@
+<div class="row">
+
+	<div class="span12">
+		<div class="page-header">
+			<h1>Add Employee</h1>
+		</div>
+	</div>
+
+	<?=$this->partial("widgets/new-employee-form.phtml", array(
+	   "error" => $this->error,
+	   "message" => $this->message,
+	   "roles" => $this->roleList
+	  )
+	);?>
+</div>
