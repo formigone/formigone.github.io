@@ -74,7 +74,9 @@
 
    <div class="row mt centered">
       <div class="col-lg-4">
-         <img src="assets/img/big-brother-js-logo.png" width="180" alt="Big Brother JS">
+         <a href="http://bigbrotherjs.com">
+            <img src="assets/img/big-brother-js-logo.png" width="180" alt="Big Brother JS">
+         </a>
          <h4>Big Brother JS</h4>
 
          <p>A JavaScript library that monitors user behavior (mouse movement, clicks, keystrokes, etc.) on websites, and
@@ -84,7 +86,9 @@
       </div>
 
       <div class="col-lg-4">
-         <img src="assets/img/th-logo.png" width="180" alt="th PHP Framework">
+         <a href="http://th.formigone.com">
+            <img src="assets/img/th-logo.png" width="180" alt="th PHP Framework">
+         </a>
          <h4>th PHP Framework</h4>
 
          <p>Possibly the most concise *VC in the planet. A good choice for simple PHP projects that need more than loose
@@ -94,19 +98,24 @@
       </div>
 
       <div class="col-lg-4">
-         <img src="assets/img/speed-reading-trainer-banner.png" width="180" alt="Speed Reading Trainer">
+         <a href="https://chrome.google.com/webstore/detail/speed-reading-trainer/klloefpijaofgelefjimlhdikagaegfe">
+            <img src="assets/img/speed-reading-trainer-banner.png" width="180" alt="Speed Reading Trainer">
+         </a>
          <h4>Speed Reading Trainer</h4>
 
          <p>A Google Chrome app that helps you boost your reading speed and increase comprehension rate. Train your eyes
             and brain, and build habits and techniques like the world's fastest readers.</p>
 
-         <p><a href="https://chrome.google.com/webstore/detail/speed-reading-trainer/klloefpijaofgelefjimlhdikagaegfe" class="btn btn-success">Download Now</a></p>
+         <p><a href="https://chrome.google.com/webstore/detail/speed-reading-trainer/klloefpijaofgelefjimlhdikagaegfe"
+               class="btn btn-success">Download Now</a></p>
       </div>
    </div>
 
    <div class="row mt centered">
       <div class="col-lg-4">
-         <img src="assets/img/omikuji-banner.png" width="180" alt="Omikuji Fortune Cookie">
+         <a href="https://play.google.com/store/apps/details?id=com.formigone.omikuji">
+            <img src="assets/img/omikuji-banner.png" width="180" alt="Omikuji Fortune Cookie">
+         </a>
          <h4>Omikuji Fortune Cookie</h4>
 
          <p>A fun Android application that "brings good news to the people who are ready for it." The mythical Internet
@@ -119,7 +128,9 @@
       </div>
 
       <div class="col-lg-4">
-         <img src="assets/img/game-of-life-logo.png" width="180" alt="Conway's Game of Life">
+         <a href="https://play.google.com/store/apps/details?id=com.formigone.life">
+            <img src="assets/img/game-of-life-logo.png" width="180" alt="Conway's Game of Life">
+         </a>
          <h4>ASCII Game of Life</h4>
 
          <p>No, this is not the board game. This game is John Conway's Game of Life - ASCII version. A zero
@@ -257,9 +268,12 @@
    _gaq.push(['_trackPageview']);
 
    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
    })();
 </script>
 </body>
